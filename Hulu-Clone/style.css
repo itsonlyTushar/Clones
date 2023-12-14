@@ -139,3 +139,40 @@ body{
     padding: 15px 25px;
     border-radius: 50%;
 }
+
+.build-plan{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: linear-gradient(to bottom,#2fb976,#303339);
+    height: 8vw;
+}
+
+.build-plan p {
+    color: white;
+    margin-top: 15px;
+    font-size: 13px;
+    width: 100%;
+    font-weight: 600;
+}
+
+.build-plan button{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 50px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.build-plan button:hover{
+    background: #A5B6AF;
+    border: none;
+    color: black;
+    font-weight: 600;
+}
+
