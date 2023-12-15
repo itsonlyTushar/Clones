@@ -25,9 +25,8 @@ body{
 .nav-logo img{
     width: 75px;
     height: 50px;
-    position: fixed;
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 10px;   
 }
 
 .container .nav-logo button{
@@ -51,6 +50,7 @@ body{
     transition: all 0.5s ease-in-out;
     padding: 8px 30px;
     position: fixed;
+    cursor: pointer;
 }
 
 .container .main-subs{
@@ -92,6 +92,13 @@ body{
     padding: 10px 100px;
     border-radius: 5px;
 }
+
+.container .main-subs button:hover{
+    background-color: #1CE783;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
 
 .container .sub-two div{
     display: flex;
@@ -176,3 +183,118 @@ body{
     font-weight: 600;
 }
 
+.arrow-down{
+    margin-top: 10px;
+}
+
+/* --------------------Second Container Starts------------------------- */
+
+.second-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #0B0C0F;
+    padding-top: 60px;
+    flex-wrap: wrap;
+    
+}
+
+.second-container .cont-text{
+    width: 100%;
+    color: white;
+}
+
+.second-container .cont-text p{
+    color: #1CE783;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.second-container .cont-text h1{
+    padding: 20px;
+}
+
+.second-container .cont-text span{
+    font-size: 17px;
+}
+
+.card-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0;
+    align-items: center;
+
+
+}
+
+.card-holder .cards{
+    padding-top: 40px;
+    margin: 10px 30px;
+}
+
+.card-holder .cards p{
+    color: white;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.card-holder img{
+    position: relative;
+    padding: 0px;
+    height: 550px;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.card-holder img:hover{
+    border: 5px solid #dadada;
+    opacity: 0.7;
+
+}
+
+
+.second-container  button{
+    background-color: #1CE783;
+    padding: 15px 40px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 7px;
+    border: none;   
+}
+
+.second-container  button:hover{
+    background-color: #1CE783;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+
+.second-container .cont-text{
+    padding-bottom: 20px;
+}
+
+.second-container .opac{
+    position: block;
+    color: white;
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.second-container .opac a{
+    color: white;
+    opacity: none;
+}
+
+.second-container h3{
+    width: 100%;
+    padding-top: 15px;
+}
+
+.second-container h3 a{
+    color: white;
+    font-weight: 600;  
+}
+
+/*------------------------------ second container ends-----------------------------  */
