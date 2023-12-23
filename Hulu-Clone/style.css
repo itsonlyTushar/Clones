@@ -230,7 +230,7 @@ body{
 
 .card-holder .cards{
     padding-top: 40px;
-    margin: 10px 30px;
+    margin: 10px 20px;
 }
 
 .card-holder .cards p{
@@ -241,8 +241,8 @@ body{
 
 .card-holder img{
     position: relative;
-    padding: 0px;
-    height: 550px;
+    padding: 0px ;
+    height: 600px;
     width: 450px;
     border-radius: 20px;
 }
@@ -269,8 +269,6 @@ body{
     cursor: pointer;
 }
 
-
-
 .second-container .cont-text{
     padding-bottom: 20px;
 }
@@ -294,7 +292,148 @@ body{
 
 .second-container h3 a{
     color: white;
-    font-weight: 600;  
+    font-weight: 600;
+}
+
+.second-container h3{
+    margin: 10px 0px 60px;
 }
 
 /*------------------------------ second container ends-----------------------------  */
+
+.carousel{
+    position: relative;
+}
+
+.carousel img{
+    background-size: cover;
+    background: fixed no-repeat center center;
+    width:100%;
+}
+
+.carousel-top{
+    position: absolute;
+    left: 7.5rem;
+    top: 10rem;
+}
+
+.carousel .carousel-top span{
+    margin-left: 15px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.carousel .carousel-top .line{
+    columns: #4C5F56;
+    opacity: 0.6;
+}
+
+.carousel .carousel-btm{
+    position: absolute;
+    left: 8rem;
+    top: 17rem;
+    color: white;
+}
+
+.carousel .carousel-btm span{
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.carousel .carousel-btm p{
+    opacity: 0.9;
+}
+
+.carousel .carousel-btm .bg{
+    display: inline-block;
+    background: white;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 10px;
+    padding: 9px 5px;
+    border-radius: 50%;
+}
+
+.carousel .carousel-btm img{
+    height: 30px;
+    width: 40px;
+
+}
+
+/* footer start  */
+.main-footer{
+    background-color: #E8EAED
+}
+
+.footer-content{
+    background-color: #E8EAED;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0%;
+    padding:30px 130px;
+}
+
+.footer-content ul a {
+    display: block;
+    text-decoration: none;
+    color: #697183;
+    padding: 5px 4px;
+
+}
+
+.footer-content ul .to-bold{
+    color: black;
+}
+
+.footer-content .new-ul{
+    display: block;
+    text-decoration: none;
+    color: #697183;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+}
+
+.icon-holder {
+  display: flex;
+  padding-left: 100px;
+  padding-top: 25px;
+}
+
+hr{
+   width: 80%;
+   margin: auto;
+   padding: 0.5px;
+   background-color: #aeb5c2;
+   opacity: 0.6;
+}
+
+.icon-holder i{
+    font-size: 25px;
+    color: #5E6573;
+    padding: 20px;
+}
+
+.end-list{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #E8EAED;
+    justify-content: space-between;
+}
+
+.end-list ul{
+    padding: 25px 70px;
+}
+
+.end-list ul a{
+    font-size: 15px;
+    padding: 0 10px;
+    text-decoration: none;
+    color: #697183;
+}
+
+/* ------------------------------Site Ends And Yet to be Responsive----------------------------------- */
