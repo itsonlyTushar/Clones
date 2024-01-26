@@ -57,6 +57,14 @@ a{
 
 }
 
+@media only screen and (max-width: 601px) {
+    .inside_out {
+        width: 35rem;
+        height: 20rem;
+    }
+  }
+
+
 .btn{
     border: inherit !important;
 }
