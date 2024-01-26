@@ -21,4 +21,4 @@ This repository contains a simple clone of the Pixar website, created as a front
 ## Setup
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/pixar-clone.git
+   git clone https://github.com/itsonlyTusha/pixar-clone.git
