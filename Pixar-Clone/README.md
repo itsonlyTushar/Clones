@@ -1,11 +1,11 @@
 # Pixar Clone Project
 
-#DESKTOP VIEW
+## DESKTOP VIEW
 <img width="927" alt="image" src="https://github.com/itsonlyTushar/Clones/assets/123139719/05367465-8ba1-488d-a0a0-21e618b64103">
 
 <img width="807" alt="image" src="https://github.com/itsonlyTushar/Clones/assets/123139719/5d4d5df1-08f3-4e51-86b6-de18be4beaf6">
 
-#RESPONSIVE VIEW
+## RESPONSIVE VIEW
 
 <img width="147" alt="image" src="https://github.com/itsonlyTushar/Clones/assets/123139719/f59ace2b-98f9-457f-85f8-01a6722b3af0">
 
