@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+ /* ---- NAV SECTION STARTS ---- */
+
+#logo{
+    height: 20px;
+    margin-left: 2rem;
+}
+
+a{
+    letter-spacing: 3px;
+    margin-left: 10px;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.main-nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* SECOND CONTAINER STARTS  */
+
+.second_container{
+    background: url(imgs/bg.jpg) center/cover no-repeat;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+} 
+
+/* ICON HOVER EFFECT  */
+
+.inside_out{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60rem;
+    height: 35rem;
+    background: url('imgs/inside-out2.png');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.btn{
+    border: inherit !important;
+}
+
+.space1{
+    margin-top: 10rem;
+    text-align: center;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+
+.space1 p{
+    margin: 30px;
+}
+
+.icon-hover{
+    font-size: 1.3rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.icon-hover:hover{
+    color: #868686;
+    transition: ease-out all 0.3s;
+}
+
+.icon-hover i:hover{
+    color: #050404;
+    transition: ease-out all 0.3s;
+}
+
+/* LINKS WITH EFFECT */
+
+.new-links a{
+    color: #171717;
+}
+
+.new-links a:hover{
+    color: #C3C3C3;
+    transition: ease-out all 0.2s
+}
+
+.new-links p{
+    color: #595959;
+}
+
+/* CONSENT BUTTON  */
+
+.mydiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-tm{
+    border: 1px solid #68B631;
+    width: 35rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    padding: 10px 7px;
+    background-color: #F0F0F0;
+    color: #68B631;
+}
+
+.btn-tm:hover{
+    cursor: pointer;
+    background-color: #68B631;
+    color:#ffff;
+}
