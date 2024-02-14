@@ -39,14 +39,16 @@ a{
     background: url(imgs/bg.jpg) center/cover no-repeat;
     height: 100vh;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
+    object-fit: cover;
 } 
 
 /* ICON HOVER EFFECT  */
 
 .inside_out{
-    transform: translate(-50%, -50%);
-    position: absolute;
     top: 50%;
     left: 50%;
     width: 60rem;
@@ -56,6 +58,13 @@ a{
     background-size: cover;
 
 }
+
+@media only screen and (max-width: 601px) {
+    .inside_out {
+        width: 35rem;
+        height: 20rem;
+    }
+  }
 
 .btn{
     border: inherit !important;
